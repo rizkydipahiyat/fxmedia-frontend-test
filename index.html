@@ -37,59 +37,61 @@
 	</head>
 	<body>
 		<header>
-			<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-warning">
-				<div class="container">
-					<a class="navbar-brand" href="#">
-						<img src="/src/images/sg-logo.png" width="80" alt="sg logo" />
-					</a>
-					<button
-						class="navbar-toggler bottom-0"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarNavAltMarkup"
-						aria-controls="navbarNavAltMarkup"
-						aria-expanded="false"
-						aria-label="Toggle navigation"
-					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div
-						class="collapse navbar-collapse d-lg-flex justify-content-lg-end align-items-center"
-						id="navbarNavAltMarkup"
-					>
-						<div class="navbar-nav">
-							<a class="nav-link active" aria-current="page" href="#"
-								>About Us</a
-							>
-							<a class="nav-link" href="#">Club Buzz</a>
-							<a class="nav-link" href="#">Membership</a>
-							<a class="nav-link" href="#">Wine & Dine</a>
-							<a class="nav-link" href="#">Facilities</a>
-							<a class="nav-link" href="#">Banquet</a>
-							<a class="nav-link" href="#">Gallery</a>
-							<a class="nav-link" href="#">What's New</a>
-							<div class="d-flex justify-content-between align-items-center">
-								<form id="form-group">
-									<input type="text" class="form-control" aria-label="Search" />
-								</form>
-								<button id="formSearch" class="btn btn-search">
-									<i class="bx bx-search"></i>
-								</button>
-							</div>
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light fixed-top bg-warning">
+					<div class="container">
+						<a class="navbar-brand" href="#">
+							<img src="/src/images/sg-logo.png" width="80" alt="sg logo" />
+						</a>
+						<button
+							class="navbar-toggler bottom-0"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#navbarNavAltMarkup"
+							aria-controls="navbarNavAltMarkup"
+							aria-expanded="false"
+							aria-label="Toggle navigation"
+						>
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						<div
+							class="collapse navbar-collapse d-lg-flex justify-content-lg-end align-items-center"
+							id="navbarNavAltMarkup"
+						>
+							<div class="navbar-nav">
+								<a class="nav-link active" aria-current="page" href="#"
+									>About Us</a
+								>
+								<a class="nav-link" href="#">Club Buzz</a>
+								<a class="nav-link" href="#">Membership</a>
+								<a class="nav-link" href="#">Wine & Dine</a>
+								<a class="nav-link" href="#">Facilities</a>
+								<a class="nav-link" href="#">Banquet</a>
+								<a class="nav-link" href="#">Gallery</a>
+								<a class="nav-link" href="#">What's New</a>
+								<div class="d-flex justify-content-between align-items-center">
+									<form id="form-group">
+										<input type="text" class="form-control" aria-label="Search" />
+									</form>
+									<button id="formSearch" class="btn btn-search">
+										<i class="bx bx-search"></i>
+									</button>
+								</div>
+						</div>
 					</div>
-				</div>
-			</nav>
+				</nav>
+			</div>
 		</header>
 
 		<!-- Carousel -->
-		<section class="home" id="home">
+		<section>
 			<div class="section-margin">
 				<div class="owl-carousel owl-theme">
 					<div class="item-video" data-merge="1">
-						<iframe class="img-fluid" src="/src/images/stock-footage-brunette-woman-swimming-underwater-in-slow-motion.mp4" frameborder="0" allow="autoplay; encrypted-media; gyroscope" allowfullscreen></iframe>
+						<embed src="/src/images/stock-footage-brunette-woman-swimming-underwater-in-slow-motion.mp4" allow="autoplay"></embed>
 					</div>
 					<div class="item-video" data-merge="2">
-						<iframe class="img-fluid" src="/src/images/stock-footage-two-asian-boys-racing-with-their-father-in-a-pool.mp4" frameborder="0" allow="autoplay" allowfullscreen></iframe>
+						<embed src="/src/images/stock-footage-two-asian-boys-racing-with-their-father-in-a-pool.mp4" allow="autoplay"></embed>
 					</div>
 					<div class="item-video" data-merge="3">
 						<img class="img-fluid img-carousel" src="/src/images/home-1.png" alt="person">
@@ -102,7 +104,7 @@
 		</section>
 
 		<!-- Tab Navs -->
-		<section class="tabs" id="tabs">
+		<section>
 			<div class="section-margin">
 				<div class="container">
 					<div class="m-4">
@@ -153,10 +155,10 @@
 								</div>
 							</div>
 							<div class="tab-pane fade" id="events">
-								<h4 id="mt-2">Events Tab Content</h4>
+								<h4 class="mt-2">Events Tab Content</h4>
 							</div>
 							<div class="tab-pane fade" id="publications">
-								<h4 id="mt-2">Publications Tab Content</h4>
+								<h4 class="mt-2">Publications Tab Content</h4>
 							</div>
 						</div>
 					</div>
