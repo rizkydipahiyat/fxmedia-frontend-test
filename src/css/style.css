@@ -19,9 +19,10 @@ body {
 	width: 300px;
 }
 
-.item-video embed {
+.item-video video {
 	width: 100%;
 	height: 230px;
+	object-fit: fill;
 }
 
 .img-carousel {
@@ -65,9 +66,10 @@ hr {
 	.form-control {
 		width: 670px;
 	}
-	.item-video embed {
+	.item-video video {
 		width: 100%;
 		height: 500px;
+		object-fit: fill;
 	}
 	.img-carousel {
 		width: 100%;
@@ -99,9 +101,10 @@ hr {
 		width: 200px;
 	}
 
-	.item-video embed {
+	.item-video video {
 		width: 100%;
 		height: 500px;
+		object-fit: fill;
 	}
 	.img-carousel {
 		width: 100%;
